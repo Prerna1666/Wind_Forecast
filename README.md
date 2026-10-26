@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UK Wind Forecast — Decision & Accuracy Dashboard
 
 A web application for UK day-ahead power buyers that shows the **latest wind generation forecast available at decision time** and **quantifies forecast accuracy** against actual generation, using Elexon BMRS data for January 2026.
@@ -153,3 +154,6 @@ Interactive API docs available at http://localhost:8000/docs when the backend is
 - **No database:** In-memory cache works for this scope but wouldn't scale. A scheduled ETL into PostgreSQL/TimescaleDB would be the next step.
 - **Fixed cutoff:** A configurable cutoff slider in the UI would let buyers evaluate accuracy at different decision times.
 - **No intraday updates:** Currently loads data once on first request. A background refresh job would keep data current.
+=======
+# Wind_Forecast
+>>>>>>> 5836dc58936db998cc773b10981f53b656d0a628
